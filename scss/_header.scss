@@ -1,0 +1,30 @@
+header{
+    background-color: blue;
+    .nav{
+        width:80%;
+        background-color: orange;
+        margin:10px auto;
+        .menu{
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .boton{
+                padding: 10px;
+                margin: 10px;
+                &:hover{
+                    background-color: blueviolet;
+                    border-radius: 15%;
+                }
+                a{
+                    text-decoration: none;
+                    color:white;
+
+             
+                }
+            }
+        }
+
+    }
+}

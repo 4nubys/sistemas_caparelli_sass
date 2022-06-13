@@ -1,0 +1,19 @@
+section{
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color:darkorange
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-size 1.2px;
+    }
+}
+
+section .imagenempresa{
+    padding: auto;
+    border: solid 3px black;
+    display: inline-block;
+    max-width: 700px;
+    max-height: 400px;
+    background-color: bisque;
+}
